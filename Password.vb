@@ -6,5 +6,10 @@
         Me.Close()
     End Sub
 
-
+    Private Sub pwInput_KeyPress(sender As Object, e As KeyPressEventArgs) Handles pwInput.KeyPress
+        If Asc(e.KeyChar) = Keys.Enter Then
+            RaiseEvent passvalue(pwInput.Text)
+            Me.Close()
+        End If
+    End Sub
 End Class

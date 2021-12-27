@@ -29,7 +29,7 @@ Partial Class Password
         '
         'pwInput
         '
-        Me.pwInput.Location = New System.Drawing.Point(68, 46)
+        Me.pwInput.Location = New System.Drawing.Point(69, 34)
         Me.pwInput.Name = "pwInput"
         Me.pwInput.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.pwInput.Size = New System.Drawing.Size(100, 23)
@@ -37,12 +37,17 @@ Partial Class Password
         '
         'unlockBtn
         '
-        Me.unlockBtn.Location = New System.Drawing.Point(77, 75)
+        Me.unlockBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.unlockBtn.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.unlockBtn.FlatAppearance.BorderSize = 2
+        Me.unlockBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.unlockBtn.ForeColor = System.Drawing.SystemColors.InactiveBorder
+        Me.unlockBtn.Location = New System.Drawing.Point(82, 75)
         Me.unlockBtn.Name = "unlockBtn"
-        Me.unlockBtn.Size = New System.Drawing.Size(75, 23)
+        Me.unlockBtn.Size = New System.Drawing.Size(68, 28)
         Me.unlockBtn.TabIndex = 1
         Me.unlockBtn.Text = "Unlock"
-        Me.unlockBtn.UseVisualStyleBackColor = True
+        Me.unlockBtn.UseVisualStyleBackColor = False
         '
         'Password
         '

@@ -26,6 +26,9 @@ Partial Class Form1
         Me.unlock = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.launchEos = New System.Windows.Forms.Button()
+        Me.launchArtnet = New System.Windows.Forms.Button()
+        Me.logout = New System.Windows.Forms.Button()
+        Me.powerOff = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -36,7 +39,7 @@ Partial Class Form1
         Me.unlock.FlatAppearance.BorderSize = 2
         Me.unlock.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.unlock.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.unlock.Location = New System.Drawing.Point(38, 222)
+        Me.unlock.Location = New System.Drawing.Point(45, 362)
         Me.unlock.Name = "unlock"
         Me.unlock.Size = New System.Drawing.Size(111, 45)
         Me.unlock.TabIndex = 0
@@ -67,12 +70,59 @@ Partial Class Form1
         Me.launchEos.Text = "Launch EOS"
         Me.launchEos.UseVisualStyleBackColor = False
         '
+        'launchArtnet
+        '
+        Me.launchArtnet.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.launchArtnet.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.launchArtnet.FlatAppearance.BorderSize = 2
+        Me.launchArtnet.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.launchArtnet.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.launchArtnet.Location = New System.Drawing.Point(214, 92)
+        Me.launchArtnet.Name = "launchArtnet"
+        Me.launchArtnet.Size = New System.Drawing.Size(111, 45)
+        Me.launchArtnet.TabIndex = 3
+        Me.launchArtnet.Text = "Launch Artnet "
+        Me.launchArtnet.UseVisualStyleBackColor = False
+        '
+        'logout
+        '
+        Me.logout.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.logout.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.logout.FlatAppearance.BorderSize = 2
+        Me.logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.logout.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.logout.Location = New System.Drawing.Point(45, 234)
+        Me.logout.Name = "logout"
+        Me.logout.Size = New System.Drawing.Size(111, 45)
+        Me.logout.TabIndex = 4
+        Me.logout.Text = "Log Off"
+        Me.logout.UseMnemonic = False
+        Me.logout.UseVisualStyleBackColor = False
+        '
+        'powerOff
+        '
+        Me.powerOff.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.powerOff.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.powerOff.FlatAppearance.BorderSize = 2
+        Me.powerOff.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.powerOff.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.powerOff.Location = New System.Drawing.Point(45, 299)
+        Me.powerOff.Name = "powerOff"
+        Me.powerOff.Size = New System.Drawing.Size(111, 45)
+        Me.powerOff.TabIndex = 5
+        Me.powerOff.Text = "Power Off"
+        Me.powerOff.UseMnemonic = False
+        Me.powerOff.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.WindowText
         Me.ClientSize = New System.Drawing.Size(372, 445)
+        Me.Controls.Add(Me.powerOff)
+        Me.Controls.Add(Me.logout)
+        Me.Controls.Add(Me.launchArtnet)
         Me.Controls.Add(Me.launchEos)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.unlock)
@@ -89,4 +139,7 @@ Partial Class Form1
     Friend WithEvents unlock As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents launchEos As Button
+    Friend WithEvents launchArtnet As Button
+    Friend WithEvents logout As Button
+    Friend WithEvents powerOff As Button
 End Class
