@@ -29,6 +29,9 @@ Partial Class Password
         '
         'pwInput
         '
+        Me.pwInput.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.pwInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pwInput.ForeColor = System.Drawing.SystemColors.Window
         Me.pwInput.Location = New System.Drawing.Point(69, 34)
         Me.pwInput.Name = "pwInput"
         Me.pwInput.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)

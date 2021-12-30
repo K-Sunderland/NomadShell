@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "NomadShell/1.0.0": {
+        "dependencies": {
+          "elevate": "1.0.0"
+        },
         "runtime": {
           "NomadShell.dll": {}
+        }
+      },
+      "elevate/1.0.0": {
+        "runtime": {
+          "elevate.dll": {}
         }
       }
     }
   },
   "libraries": {
     "NomadShell/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "elevate/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -18,3 +18,10 @@ C:\Users\Kyle\source\repos\NomadShell\obj\Debug\net5.0-windows\NomadShell.pdb
 C:\Users\Kyle\source\repos\NomadShell\obj\Debug\net5.0-windows\NomadShell.genruntimeconfig.cache
 C:\Users\Kyle\source\repos\NomadShell\obj\Debug\net5.0-windows\NomadShell.Password.resources
 C:\Users\Kyle\source\repos\NomadShell\obj\Debug\net5.0-windows\NomadShell.Resources.resources
+C:\Users\Kyle\source\repos\NomadShell\bin\Debug\net5.0-windows\elevate.deps.json
+C:\Users\Kyle\source\repos\NomadShell\bin\Debug\net5.0-windows\elevate.runtimeconfig.json
+C:\Users\Kyle\source\repos\NomadShell\bin\Debug\net5.0-windows\elevate.runtimeconfig.dev.json
+C:\Users\Kyle\source\repos\NomadShell\bin\Debug\net5.0-windows\elevate.exe
+C:\Users\Kyle\source\repos\NomadShell\bin\Debug\net5.0-windows\elevate.dll
+C:\Users\Kyle\source\repos\NomadShell\bin\Debug\net5.0-windows\elevate.pdb
+C:\Users\Kyle\source\repos\NomadShell\obj\Debug\net5.0-windows\NomadShell.vbproj.CopyComplete

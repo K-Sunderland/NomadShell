@@ -1,5 +1,5 @@
 ﻿Imports System.IO
-Imports M
+Imports elevate
 Public Class Form1
 
 
@@ -43,7 +43,12 @@ Public Class Form1
 
 	Private Sub pw_passvalue(text As String) Handles pw.passvalue
 		If text = "fresnel" Then
-			Process.Start("C:\Windows\explorer.exe")
+
+
+			Dim process As New Process()
+			process.StartInfo.UseShellExecute = True
+			process.StartInfo.FileName = "C:\Program Files\ETC\EosFamily\elevate.exe"
+			process.Start()
 			unlock.Text = "Lock"
 			locked = False
 		Else
