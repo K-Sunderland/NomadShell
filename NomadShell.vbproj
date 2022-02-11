@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>NomadShell</RootNamespace>
-    <StartupObject>NomadShell.Form1</StartupObject>
+    <StartupObject>NomadShell.NomadShell</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <ApplicationIcon>favicon.ico</ApplicationIcon>

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qIxaCbYu0+OtMmQmLow2CznEo9iEUeG6mYMAgSovV2hOXTHwvH/PidXk2WLOwA4GChxzYJ92DFKFE9LL9t2bow==",
+  "dgSpecHash": "So7Af4rKoAFAJOWK9ABQ0yS4RzzkAMhzfML5wRyNoiE9vOtiiyjk/5s2fxtUNotdTiqfh54osK/MVX5RQ07qxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kyle\\source\\repos\\NomadShell\\NomadShell.vbproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512",
+    "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

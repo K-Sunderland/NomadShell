@@ -1,11 +1,11 @@
 ﻿Imports System.IO
 Imports elevate
-Public Class Form1
+Public Class NomadShell
 
 
 	WithEvents pw As Password
 	Dim locked
-	Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+	Private Sub NomadShell_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 		If Process.GetProcessesByName("explorer").Count > 0 Then
 			locked = False

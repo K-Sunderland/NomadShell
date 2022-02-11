@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.NomadShell.Form1
+            Me.MainForm = Global.NomadShell.NomadShell
         End Sub
     End Class
 End Namespace
